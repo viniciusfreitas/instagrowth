@@ -1,0 +1,23 @@
+{
+  "name": "instagrowth",
+  "version": "1.0.0",
+  "description": "Backend side of instagrowth app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusfreitas/instagrowth.git"
+  },
+  "keywords": [
+    "instagram",
+    "reportei"
+  ],
+  "author": "Vinicius Freitas <viniciuslf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viniciusfreitas/instagrowth/issues"
+  },
+  "homepage": "https://github.com/viniciusfreitas/instagrowth#readme"
+}
