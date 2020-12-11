@@ -2,9 +2,9 @@
   "name": "instagrowth",
   "version": "1.0.0",
   "description": "Backend side of instagrowth app",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,23 @@
   "bugs": {
     "url": "https://github.com/viniciusfreitas/instagrowth/issues"
   },
-  "homepage": "https://github.com/viniciusfreitas/instagrowth#readme"
+  "homepage": "https://github.com/viniciusfreitas/instagrowth#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.4",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
